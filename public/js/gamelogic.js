@@ -542,26 +542,3 @@ Platform.prototype.init = function() {
 	this.switchState(this.current_state);
 };
 
-// Function to send data to the API endpoint
-function sendDataToAPI(data) {
-    $.ajax({
-        type: 'POST',
-        url: '/json-data', // Change the URL to match your API endpoint
-        contentType: 'application/json',
-        data: JSON.stringify(data),
-        success: function(response) {
-            console.log('Data sent successfully:', response);
-        },
-        error: function(xhr, status, error) {
-            console.error('Error sending data:', error);
-        }
-    });
-}
-
-// Function to gather game data and send it to the API
-function sendGameDataToAPI(gameData) {
-    // Send the game data to the API
-    sendDataToAPI(gameData);
-}
-
-// Call the function to send game data to the API
