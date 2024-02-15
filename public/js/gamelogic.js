@@ -542,3 +542,22 @@ Platform.prototype.init = function() {
 	this.switchState(this.current_state);
 };
 
+
+function sendDataToAPI(data) {
+    $.ajax({
+        type: 'POST',
+        url: '/json-data',
+        contentType: 'application/json',
+        data: JSON.stringify(data),
+        success: function(response) {
+            console.log('Data sent successfully:', response);
+        },
+        error: function(xhr, status, error) {
+            console.error('Error sending data:', error);
+        }
+    });
+}
+
+function sendGameDataToAPI(gameData) {
+    sendDataToAPI(gameData);
+}
