@@ -7,3 +7,6 @@ This app uses cutting-edge web technology, HTML for its front end, CSS for its s
 
 
 The fictional typing game seeks to blend counterproductivity with the game’s fun-filled atmosphere to inculcate competitive typing while playing a game. The game has a high level of differentiation from traditional typing tutors because its gaming mechanisms push the players to improve accuracy and speed while fighting off dangerous situations. Additionally, the game store keeps all the record data while the user is playing, thus increasing the game’s efficacy and data security.
+
+
+![image](https://github.com/SaadAlsuabie/game-tech-spa/assets/166383619/f52b67a0-f70e-41a5-bc68-9ada8e481abb)
